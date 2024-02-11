@@ -1,3 +1,4 @@
+//Näide
 public class Main {
     public static void main(String[] args) {
         //Kodus teha 3 funktsiooni milles on kasutatud vähemalt nelja erinevat tüüpi (String, int, long, char, boolean jne)
@@ -29,3 +30,4 @@ public class Main {
         }
     }
 }
+//Kodutöö
