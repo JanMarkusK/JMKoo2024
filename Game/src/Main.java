@@ -1,4 +1,3 @@
-import javax.crypto.spec.SecretKeySpec;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,36 +8,29 @@ public class Main {
 
         Random random = new Random();
 
-        int kaardiKorgus = 5;
-        int kaardiLaius = 10;
-
-        int mangijaXKordinaat = saaKordinaat(random, kaardiLaius);
-        int mangijaYKordinaat = saaKordinaat(random, kaardiKorgus);;
-        char mangijaSymbol = 'x';
-
-        int draakonXKordinaat = saaKordinaat(random, kaardiLaius);
-        int draakonYKordinaat = 3;
-        char draakonSymbol = 'D';
-
-        int orkXKordinaat = saaKordinaat(random, kaardiLaius);
-        int orkYKordinaat = saaKordinaat(random, kaardiKorgus);
-        char orkSymbol = 'O';
-
-
+        Maailm maailm = new Maailm(5,10);
+        Mängija mängija = new Mängija(random, maailm.kaardiKorgus, maailm.kaardiLaius);
+        Draakon draakon = new Draakon(random, maailm.kaardiKorgus, maailm.kaardiLaius);
+        Ork ork = new Ork(random, maailm.kaardiKorgus, maailm.kaardiLaius);
 
         Scanner scanner = new Scanner(System.in); //järgmine tund
 
-        manguKaart(kaardiKorgus, kaardiLaius, mangijaXKordinaat, mangijaYKordinaat, mangijaSymbol, draakonXKordinaat, draakonYKordinaat, draakonSymbol, orkXKordinaat, orkYKordinaat, orkSymbol);
+        maailm.manguKaart(mängija, draakon, ork);
         String sisend = scanner.nextLine();
 
-        switch (sisend) {
-            case "w" -> mangijaYKordinaat --;
-            case "s" -> mangijaYKordinaat ++;
-            case "a" -> mangijaXKordinaat --;
-            case "d" -> mangijaXKordinaat ++;
+        mängija.liigu(sisend, maailm);
 
+        //see kahekorne tsükkel käib nt. 25 korda kuna 5 korda Y ja 5 korda x iga Y kohta
+        while (!sisend.equals ("end")) { // .equals --> ==, !n.equals --> !=
+            maailm.manguKaart(mängija, draakon, ork);
+            sisend = scanner.nextLine();
+            mängija.liigu(sisend, maailm);
         }
-        // if versioon switchist
+    }
+}
+
+
+// if versioon switchist
 //        if (sisend.equals("w")) {
 //            mangijaYKordinaat = --;
 //        } else if (sisend.equals("s")) {
@@ -48,52 +40,3 @@ public class Main {
 //        } else if (sisend.equals("d")) {
 //            mangijaXKordinaat = ++;
 //        }
-        //see kahekorne tsükkel käib nt. 25 korda kuna 5 korda Y ja 5 korda x iga Y kohta
-        while (!sisend.equals ("end")) { // .equals --> ==, !n.equals --> !=
-            manguKaart(kaardiKorgus, kaardiLaius, mangijaXKordinaat, mangijaYKordinaat, mangijaSymbol, draakonXKordinaat, draakonYKordinaat, draakonSymbol, orkXKordinaat, orkYKordinaat, orkSymbol);
-            sisend = scanner.nextLine();
-            switch (sisend) {
-                case "w" -> mangijaYKordinaat --;
-                case "s" -> mangijaYKordinaat ++;
-                case "a" -> mangijaXKordinaat --;
-                case "d" -> mangijaXKordinaat ++;
-            }
-        }
-
-    }
-
-    private static void manguKaart(int kaardiKorgus, int kaardiLaius, int mangijaXKordinaat, int mangijaYKordinaat, char mangijaSymbol, int draakonXKordinaat, int draakonYKordinaat, char draakonSymbol, int orkXKordinaat, int orkYKordinaat, char orkSymbol) {
-        for (int y = 0; y < kaardiKorgus; y++) {
-            for (int x = 0; x < kaardiLaius; x++) {
-                char symbol = ' ';
-                //vahetan äärmised numbrid joontega et visualiseerida kasti ning kaotan sisemised arvud
-                if (y == 0 || y == kaardiKorgus -1) {
-                    symbol = '-';
-                }
-                else if (x == 0 || x == kaardiLaius -1) {
-                    symbol = '|';
-                }
-                else {
-                    if (x == mangijaXKordinaat && y == mangijaYKordinaat) {
-                        symbol = mangijaSymbol;
-                    }
-                    else if (x == draakonXKordinaat && y == draakonYKordinaat) {
-                        symbol = draakonSymbol;
-                    }
-                    else if (x == orkXKordinaat && y == orkYKordinaat) {
-                        symbol = orkSymbol;
-                    }
-                    else {
-                        symbol = ' ';
-                    }
-                }
-                System.out.print(symbol);
-            }
-            System.out.println();
-        }
-    }
-
-    private static int saaKordinaat(Random random, int kaart) {
-        return random.nextInt(1, kaart - 1);
-    }
-}

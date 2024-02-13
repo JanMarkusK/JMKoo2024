@@ -1,1 +1,3 @@
 Võimalikult spetsiifilisel teemal rakendus, milles on vähemalt üks klass ning sellest vähemalt kaks eraldi juhitavat eksemplari.
+
+IDEE KODU TÖÖKS: Relva salves kuulide arvutamine ja siis vaatad kas paned salve relva sisse
