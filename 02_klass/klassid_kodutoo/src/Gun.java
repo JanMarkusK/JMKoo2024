@@ -1,4 +1,4 @@
-public class Magazin {
+public class Gun {
     int magazinCapacity;
     int magazinCount;
     int bullets;
@@ -8,6 +8,7 @@ public class Magazin {
         this.magazinCount = magazinCount;
         this.bullets = bullets;
     }
+
     public void magazinReloading(int magazinCount) {
         while (magazinCount < magazinCapacity) {
             magazinCount++;

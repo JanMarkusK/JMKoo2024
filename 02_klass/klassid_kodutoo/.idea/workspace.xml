@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859c7984-02b4-4436-877f-49cfa21c0bbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../01_funktsioon/01_funktsioon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Draakon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Maailm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Mängija.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Ork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Suund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01_funktsioon/kodutoo1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_funktsioon/kodutoo1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kirjeldus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../kirjeldus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Magazin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cJWJ4o6y7HYzAb75lNhmBr2zzT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,12 +26,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Student/Documents/JMKoo2024/02_klass"
+    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/Game"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
