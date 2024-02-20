@@ -1,9 +1,7 @@
 import java.util.Random;
 
-public class Ork {
-    int xKord;
-    int yKord;
-    char symbol;
+public class Ork extends Tegelane implements JuhuslikKordinaat{
+
 
     public Ork(Random random, int kaardiKorgus, int kaardiLaius) {
         xKord = saaKordinaat(random, kaardiLaius); //initsialiseerimine, ehk annan sellele algväärtuse
@@ -11,7 +9,7 @@ public class Ork {
         symbol = 'O';
     }
 
-    private int saaKordinaat(Random random, int kaart) {
+    public int saaKordinaat(Random random, int kaart) {
         return random.nextInt(1, kaart - 1);
     }
 }

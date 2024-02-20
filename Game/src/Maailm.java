@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Maailm {
     int kaardiKorgus;
     int kaardiLaius;
@@ -5,7 +7,8 @@ public class Maailm {
         kaardiKorgus = korgus;
         kaardiLaius = laius;
     }
-    public void manguKaart(Mängija mängija, Draakon draakon, Ork ork) {
+    public void manguKaart(List<Tegelane> tegelased, List<Ese> esemed) {
+        //see kahekorne tsükkel käib nt. 25 korda kuna 5 korda Y ja 5 korda x iga Y kohta
         for (int y = 0; y < kaardiKorgus; y++) {
             for (int x = 0; x < kaardiLaius; x++) {
                 char symbol = ' ';
@@ -15,15 +18,21 @@ public class Maailm {
                 } else if (x == 0 || x == kaardiLaius -1) {
                     symbol = '|';
                 } else {
-                    if (x == mängija.xKord && y == mängija.yKord) {
-                        symbol = mängija.symbol;
-                    } else if (x == draakon.xKord && y == draakon.yKord) {
-                        symbol = draakon.symbol;
-                    } else if (x == ork.xKord && y == ork.yKord) {
-                        symbol = ork.symbol;
-                    } else {
-                        symbol = ' ';
+                    symbol = ' ';
+                    for (Ese e : esemed) {
+                        if (e.xKord == x && e.yKord == y) {
+                                symbol = e.symbol;
+                        }
                     }
+                    for (Tegelane t: tegelased) {
+                        if (t.xKord == x && t.yKord == y) {
+                            symbol = t.symbol;
+                        }
+                    }
+                        //Teine versioon for tsükklist
+                        //for (int i = 0; i < esemed.size(); i++) {
+                        //    esemed.get(i);
+                        //}
                 }
                 System.out.print(symbol);
             }

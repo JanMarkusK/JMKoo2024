@@ -5,7 +5,7 @@ public class Main {
         Gun gun2 = new Gun(20,13,100);
 
         gun.magazinReloading(0);
-        System.out.println("Kuule salves: " + gun.magazinCount);
+        System.out.println("Kuule salves: " + gun.magazinCount + " Kuule järgi: " + gun.bullets);
 
         int bulletsAmount2 = gun2.bulletSupply(200);
         System.out.println("Kuule on " + bulletsAmount2);

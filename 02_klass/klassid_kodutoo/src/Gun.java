@@ -9,11 +9,11 @@ public class Gun {
         this.bullets = bullets;
     }
 
-    public int magazinReloading(int magazinCountFinished) {
+    public void magazinReloading(int magazinCountFinished) {
         this.magazinCount = magazinCountFinished;
         while (this.magazinCount < magazinCapacity) {
-            this.magazinCount = this.magazinCount + 1;
-            bullets--;
+            this.magazinCount ++;
+            bullets --;
 
         }
         if (this.magazinCount == magazinCapacity) {
@@ -22,7 +22,6 @@ public class Gun {
         if (bullets == 0) {
             System.out.println("I need more BULLETS!");
         }
-        return this.magazinCount;
     }
     public int bulletSupply(int bulletsBrought) {
         bullets = bullets + bulletsBrought;
