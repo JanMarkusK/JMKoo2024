@@ -9,17 +9,20 @@ public class Gun {
         this.bullets = bullets;
     }
 
-    public void magazinReloading(int magazinCount) {
-        while (magazinCount < magazinCapacity) {
-            magazinCount++;
+    public int magazinReloading(int magazinCountFinished) {
+        this.magazinCount = magazinCountFinished;
+        while (this.magazinCount < magazinCapacity) {
+            this.magazinCount = this.magazinCount + 1;
             bullets--;
+
         }
-        if (magazinCount == magazinCapacity) {
+        if (this.magazinCount == magazinCapacity) {
             System.out.println("Salv on laetud");
         }
         if (bullets == 0) {
             System.out.println("I need more BULLETS!");
         }
+        return this.magazinCount;
     }
     public int bulletSupply(int bulletsBrought) {
         bullets = bullets + bulletsBrought;
