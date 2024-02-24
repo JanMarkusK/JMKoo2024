@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e132f8-293c-40a3-b6a7-78702c29ec34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Champion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChampionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Ese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/JuhuslikKordinaat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Soiduk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Game/src/Tegelane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/src/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/src/Gun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Draakon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Draakon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Maailm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Maailm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Mängija.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Mängija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game/src/Ork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/src/Ork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Champion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChampionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cdHHbdMsX2D4I7zxbHVhGOCvRc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,9 +41,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/02_klass/klassid_kodutoo"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
