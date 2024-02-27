@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e132f8-293c-40a3-b6a7-78702c29ec34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_klass/klassid_kodutoo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_proovikontrolltoo1/failistLugemine/lugemine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_proovikontrolltoo1/proovikontrolltoo2JMK/src/Kolmnurk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_proovikontrolltoo1/proovikontrolltooJMK/src/LibisevKeskmine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Champion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChampionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +36,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/02_klass/klassid_kodutoo"
+    "last_opened_file_path": "C:/Users/Student/Documents/JMKoo2024/03_klassikomplekt/kodutoo3"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
