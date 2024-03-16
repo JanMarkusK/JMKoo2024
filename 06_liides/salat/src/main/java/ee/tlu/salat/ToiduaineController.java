@@ -31,6 +31,7 @@ public class ToiduaineController {
     public String saaToiduaine (@PathVariable int index){
         return toiduained.get(index);
     }
+
 //    @GetMapping("tere/{nimi}")
 //    public String hello (@PathVariable String nimi) {
 //        return "Tere " + nimi;
