@@ -19,12 +19,12 @@ public class championEntityController {
         stats.add(stat);
         return stats;
     }
-    @DeleteMapping("toidained/{index}")
+    @DeleteMapping("stats/{index}")
     public List<championEntity> deleteStat (@PathVariable int index){
         stats.remove(index);
         return stats;
     }
-    @PutMapping("stats")
+    @PutMapping("stats/change")
     public List<championEntity> changeStat (
             @RequestParam int index,
             @RequestParam int ad,

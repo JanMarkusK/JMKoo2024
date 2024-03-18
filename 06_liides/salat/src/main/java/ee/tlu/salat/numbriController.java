@@ -22,12 +22,12 @@ public class numbriController {
         numbrid.remove(index);
         return numbrid;
     }
-    @GetMapping("numbrid/NumbriteHulk")
+    @GetMapping("numbrid/hulk")
     public int saaNumbriHulk (@PathVariable int numbriteHulk){
         numbriteHulk = numbrid.size();
         return numbriteHulk;
     }
-    @GetMapping("numbrid/NumbriteSumma{index}")
+    @GetMapping("numbrid/summa")
     public int saaNumbriteSumma (@PathVariable int summa){
         summa = 0;
         for (int i = 0; i < numbrid.size(); i++) {
@@ -35,7 +35,7 @@ public class numbriController {
         }
         return summa;
     }
-    @GetMapping("numbrid/NumbriteSumma{index}")
+    @GetMapping("numbrid/keskmine")
     public int saaNumbriteKesk (@PathVariable int kesk){
         int summa = 0;
         for (int i = 0; i < numbrid.size(); i++) {

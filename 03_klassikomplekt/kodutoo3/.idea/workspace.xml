@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e132f8-293c-40a3-b6a7-78702c29ec34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/06_liides.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/salat/src/main/java/ee/tlu/salat/championEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/salat/src/main/java/ee/tlu/salat/championEntityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../06_liides/salat/src/main/java/ee/tlu/salat/numbriController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineController.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6e132f8-293c-40a3-b6a7-78702c29ec34" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +36,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/06_liides"
+    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/06_liides/salat"
   }
 }]]></component>
   <component name="SharedIndexes">
