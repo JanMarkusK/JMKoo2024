@@ -23,7 +23,9 @@ public class ToiduaineController {
         return toiduained;
     }
     @PutMapping("toidained/{index}/{newValue}")
-    public List<String> kustutaToiduaine (@PathVariable int index, @PathVariable String newValue){
+    public List<String> muudaToiduaine (
+            @PathVariable int index,
+            @PathVariable String newValue){
         toiduained.set(index, newValue);
         return toiduained;
     }
