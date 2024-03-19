@@ -9,7 +9,7 @@ import java.util.List;
 public class ToiduaineController {
     List<String> toiduained = new ArrayList<>();
     @GetMapping("toiduained")
-    public List<String> saaToiduaine (@PathVariable String toiduaine){
+    public List<String> saaToiduaine (){
         return toiduained;
     }
     @PostMapping("toiduained/{toiduaine}")

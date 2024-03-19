@@ -7,9 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SalatApplication {
 
 	public static void main(String[] args) {SpringApplication.run(SalatApplication.class, args);
-
-
-
 	}
 
 }

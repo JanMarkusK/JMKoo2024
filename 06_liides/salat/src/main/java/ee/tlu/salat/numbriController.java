@@ -9,7 +9,7 @@ public class numbriController {
     List<Integer> numbrid = new ArrayList<>();
 
     @GetMapping("numbrid")
-    public List<Integer> saaNumber (@PathVariable int number){
+    public List<Integer> saaNumber (){
         return numbrid;
     }
     @PostMapping("numbrid/{number}")
@@ -23,25 +23,25 @@ public class numbriController {
         return numbrid;
     }
     @GetMapping("numbrid/hulk")
-    public int saaNumbriHulk (@PathVariable int numbriteHulk){
-        numbriteHulk = numbrid.size();
+    public int saaNumbriHulk (){
+        int numbriteHulk = numbrid.size();
         return numbriteHulk;
     }
     @GetMapping("numbrid/summa")
-    public int saaNumbriteSumma (@PathVariable int summa){
-        summa = 0;
+    public int saaNumbriteSumma (){
+        int summa = 0;
         for (int i = 0; i < numbrid.size(); i++) {
             summa += numbrid.get(i); // Lisan iga numbri summale juurde
         }
         return summa;
     }
     @GetMapping("numbrid/keskmine")
-    public int saaNumbriteKesk (@PathVariable int kesk){
+    public float saaNumbriteKesk (){
         int summa = 0;
         for (int i = 0; i < numbrid.size(); i++) {
             summa += numbrid.get(i); // Lisan iga numbri summale juurde
         }
-        kesk = summa / numbrid.size(); // Leian artmeetilise keskmise
+        float kesk = summa / numbrid.size(); // Leian aritmeetilise keskmise
         return kesk;
     }
 }

@@ -10,7 +10,7 @@ public class championEntityController {
     List<championEntity> stats = new ArrayList<>();
 
     @GetMapping("stats")
-    public List<championEntity> getStats (@PathVariable int stat){
+    public List<championEntity> getStats (){
         return stats;
     }
     @PostMapping("stats/{ad}/{hp}/{armor}/{mr}")
