@@ -1,4 +1,4 @@
-package ee.tlu.salat;
+package ee.tlu.salat.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor // AB'sse panekuks
 public class ToiduaineEntity {
     @Id // alati unikaalne kustutamiseks, võtmiseks, muutmiseks
-    String nimetus;
-    int valk;
-    int rasv;
-    int sysivesik;
+    private String nimetus;
+    private int valk;
+    private int rasv;
+    private int sysivesik;
 }

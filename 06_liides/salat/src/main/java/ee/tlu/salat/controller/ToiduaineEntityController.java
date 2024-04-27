@@ -1,26 +1,29 @@
-package ee.tlu.salat;
+package ee.tlu.salat.controller;
 
+import ee.tlu.salat.entity.ToiduaineEntity;
+import ee.tlu.salat.repository.ToiduaineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
-@RestController
-@RequestMapping("/api")
+@RestController // kontroller ehk front-end saab siit ligi
+@RequestMapping("/api") // saab igale API otspunktile eesliidese panna
+@CrossOrigin("http://localhost:3000") // see ütleb, mis URL/rakendus mulle ligi pääseb
 public class ToiduaineEntityController {
     // localohost:8080/api/toiduained
     @Autowired
     ToiduaineRepository toiduaineRepository;
     //List<ToiduaineEntity> toiduained = new ArrayList<>();
 
+    // Dependency injection
     @GetMapping("toiduained")
     public List<ToiduaineEntity> saaToiduaine (){
         return toiduaineRepository.findAll();
     }
-    @PostMapping("toiduained/{nimi}/{valk}/{rasv}/{sysivesikud}")
+    @PostMapping("toiduained")
     public List<ToiduaineEntity> lisaToiduaine (@RequestBody ToiduaineEntity toiduaineEntity){
-        if (toiduaineEntity.valk + toiduaineEntity.rasv+toiduaineEntity.sysivesik>100) {
+        if (toiduaineEntity.getValk() + toiduaineEntity.getRasv()+toiduaineEntity.getSysivesik()>100) {
             return toiduaineRepository.findAll();
         }
         toiduaineRepository.save(toiduaineEntity);
@@ -45,6 +48,17 @@ public class ToiduaineEntityController {
     }
     @GetMapping("toiduained/{nimi}")
     public ToiduaineEntity toiduaine (@PathVariable String nimi){
+
         return toiduaineRepository.findById(nimi).get();
     }
+
+    @GetMapping("toiduained-valk-min/{minValk}")
+    public List<ToiduaineEntity> toiduainedMinValk (@PathVariable int minValk){
+        return toiduaineRepository.findAllByValkGreaterThan(minValk);
+    }
+    @GetMapping("toiduained-sysivesik/{min}/{max}")
+    public List<ToiduaineEntity> toiduainedMinValk (@PathVariable int min, @PathVariable int max){
+        return toiduaineRepository.findAllBySysivesikBetween(min, max);
+    }
+
 }

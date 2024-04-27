@@ -1,4 +1,4 @@
-package ee.tlu.salat;
+package ee.tlu.salat.controller;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+@CrossOrigin("http://localhost:3000")
+//@CrossOrigin("*")
 public class ToiduaineController {
     List<String> toiduained = new ArrayList<>();
     @GetMapping("toiduained")

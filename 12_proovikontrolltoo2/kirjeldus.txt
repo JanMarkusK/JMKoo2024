@@ -1,1 +1,1 @@
-Proovikontrolltöö ülesande lahendus kopeerida siia kausta
+Loo uus rakendus veebipood. Tee talle mudel "Toode, tee talle Repository, kontroller, millega andmebaasi panna, kuva välka front-endis.

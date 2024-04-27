@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c48016c-329a-41bc-9c97-6f1c0311d19e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/ChampionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/07_testid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_alamklassid/.idea/08_alamklassid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_alamklassid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_alamklassid/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_alamklassid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_alamklassid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/SalatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/SalatApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineEntityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/ToiduaineEntityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/championEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/championEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/championEntityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_liides/salat/src/main/java/ee/tlu/salat/championEntityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_alamklassid/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../08_alamklassid/frontend/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2eVcOz4zcX4MCYYQPkAi1oa5Mo1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kasutaja/Desktop/Koodi programmid ja muu/JMKoo2024/07_testid"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c48016c-329a-41bc-9c97-6f1c0311d19e" name="Changes" comment="" />
+      <created>1711993157478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711993157478</updated>
+    </task>
+    <servers />
+  </component>
+</project>
