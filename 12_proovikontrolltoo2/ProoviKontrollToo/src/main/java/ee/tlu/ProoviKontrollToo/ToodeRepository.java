@@ -11,4 +11,5 @@ public interface ToodeRepository extends JpaRepository<Toode, Long> {
     List<Toode> findFirstByHindNotNUllOrderByHindDesc();
     List<Toode> findByNimiContains(String nimi);
     List<Toode> findByNimiStartsWith(String nimi);
+    List<Toode> findByKategooria_id(Long id);
 }

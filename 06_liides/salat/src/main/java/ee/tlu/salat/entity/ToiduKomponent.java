@@ -20,10 +20,11 @@ public class ToiduKomponent {
     Long id;
     @ManyToOne(cascade = CascadeType.ALL)
     ToiduaineEntity toiduaine;
+    @ManyToOne
+    Toit toit;
+    int kogus;
 
     //@ManyToMany
     //List<ToiduaineEntity> toiduained;
-    int kogus;
-
     // {id: 5 , toiduaine: {nimetus:"Vorst}, kogus: 100}
 }

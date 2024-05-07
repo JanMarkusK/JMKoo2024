@@ -5,9 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
+// ctrl + r    "private"    "private"   --> replace All
+// private class Omniva
+
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Omniva {
     @JsonProperty("ZIP")
     private String zIP;

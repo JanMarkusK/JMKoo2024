@@ -1,6 +1,8 @@
 package ee.tlu.salat.controller;
 
+import ee.tlu.salat.entity.ToiduKomponent;
 import ee.tlu.salat.entity.Toit;
+import ee.tlu.salat.repository.ToiduKomponentRepository;
 import ee.tlu.salat.repository.ToitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +15,9 @@ public class ToitController {
 
     @Autowired
     ToitRepository toitRepository;
+    @Autowired
+    private ToiduKomponentRepository toiduKomponentRepository;
+
     @GetMapping("toit")
     public List<Toit> getToidud(){
         return toitRepository.findAll();
@@ -44,4 +49,13 @@ public class ToitController {
                 setToiduKomponendid(json);
     })
     }*/
+    @GetMapping("toidu-valgu-kogus/{id}")
+    public double getToiduValguKogus(@PathVariable Long id){
+        double sum = 0;
+        List<ToiduKomponent> toiduKomponendid = toiduKomponentRepository.findByToit_id(id);
+        for(ToiduKomponent t: toiduKomponendid){
+            sum += t.getKogus()*t.getToiduaine().getValk();
+        }
+        return sum /100;
+    }
 }

@@ -1,17 +1,15 @@
-package ee.tlu.salat.model;
+package ee.tlu.salat.model.nordpool;
 
-
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+
 @Getter
-@AllArgsConstructor
 @NoArgsConstructor
 public class Data {
-    private int userId;
-    private int id;
-    private String title;
-    private String body;
+    private ArrayList<TimestampPrice> ee;
+    private ArrayList<TimestampPrice> fi;
+    private ArrayList<TimestampPrice> lv;
+    private ArrayList<TimestampPrice> lt;
 }
