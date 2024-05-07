@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface KaubanduskeskusRepository extends JpaRepository<Kaubanduskeskus, Long> {
 
-    List<Kaubanduskeskus>findPoodByKaubanduskeskusIdAndAvamisAegGreaterThanAndSulgemisAegLessThan(long id, int avamisAeg, int sulgemisAeg);
+
 }

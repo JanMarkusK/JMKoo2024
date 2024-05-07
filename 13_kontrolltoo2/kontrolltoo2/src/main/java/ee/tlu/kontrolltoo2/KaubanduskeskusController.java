@@ -18,8 +18,4 @@ public class KaubanduskeskusController {
 
         return kaubanduskeskusRepository.findAll();
     }
-    @GetMapping("KaubandusePoedAjaga/{kell}/{id}")
-    public List<Kaubanduskeskus> getKKPoedAjaga(@PathVariable int kell, @PathVariable long id){
-        return kaubanduskeskusRepository.findPoodByKaubanduskeskusIdAndAvamisAegGreaterThanAndSulgemisAegLessThan(id, kell, kell);
-    }
 }
